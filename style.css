@@ -1,34 +1,38 @@
-/* ✅ General Reset */
-body {
-  font-family: "Poppins", sans-serif;
-}
+  body {
+    font-family: "Poppins", sans-serif;
+  }
 
-/* ✅ Hero Section */
-.hero-section {
-  background: linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url("https://images.unsplash.com/photo-1542291026-7eec264c27ff") center/cover no-repeat;
-  height: 80vh;
-}
+  .hero-section {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("https://images.unsplash.com/photo-1542291026-7eec264c27ff") center/cover no-repeat;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+  }
 
-/* ✅ Navbar */
-.navbar-brand {
-  font-size: 1.5rem;
-  letter-spacing: 1px;
-}
+  .navbar-brand {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+  }
 
-/* ✅ Product Cards */
-.card img {
-  transition: transform 0.3s ease;
-}
+  .card img {
+    transition: transform 0.3s ease;
+  }
 
-.card img:hover {
-  transform: scale(1.05);
-}
+  .card img:hover {
+    transform: scale(1.05);
+  }
 
-/* ✅ Footer */
-footer {
-  font-size: 0.9rem;
-}
+  footer {
+    font-size: 0.9rem;
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+  }
